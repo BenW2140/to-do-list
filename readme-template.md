@@ -2,7 +2,7 @@
 
 #### _{Brief description of application}, {Date of current version}_
 
-#### By _**{List of contributors}**_
+#### By _**Ben White**_
 
 ## Description
 
@@ -10,20 +10,31 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Software Requirements:
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+1. Web Browser
+2. VSCode
+
+Open by downloading:
+
+1. Download this repository onto your computer
+2. Double click index.html to open it in your web browser
+
+Open via Bash/GitBash:
+
+1. Clone this repository onto your computer: https://github.com/BenW2140/{project-name}
+2. Navigate into the {project-name} directory in Visual Studio Code or preferred text editor code .
+3. Open index.html in Chrome or preferred browser: open index.html
+
+Open using Git Pages:
+
+1. Follow this link: https://BenW2140.github.io/{project-name}
 
 ## Specs
 
-*
-*
-*
-*
+| |
+------|------|------
+| |
 
 ## Known Bugs
 
@@ -39,6 +50,6 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT License*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Ben White_**
