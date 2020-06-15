@@ -32,9 +32,12 @@ Open using Git Pages:
 
 ## Specs
 
-| |
+Behavior|Input |Output
 ------|------|------
-| |
+The program will take in a task and display it back|Grocery shopping |Grocery shopping
+The program will take in tasks and display them as a list|Grocery shopping, Mow the lawn, Do laundry |<ul><li>Grocery shopping</li><li>Mow the lawn</li><li>Do laundry</li></ul>
+The program will allow the user to mark when a task is done|yes |task is done
+The program will remove tasks that are marked as done|task is done | task has been removed from to do list
 
 ## Known Bugs
 
