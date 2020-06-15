@@ -22,6 +22,12 @@ $(document).ready(function() {
     const chore = new Task($("input#task").val());
     toDoList.addToList(chore);
 
-    $("#list").append("<li>" + chore.display() + "</li>");
+    $("#output").show();
+    $("ul").append("<li>" + "<input type='radio' name='done' value='yes'> " + chore.display() + "</li>");
+    // $("#finished").show();
+    // $("form#finished").submit(function(event) {
+    //   event.preventDefault();
+      
+    // });
   });
 });
