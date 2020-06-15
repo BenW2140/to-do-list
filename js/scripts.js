@@ -22,6 +22,6 @@ $(document).ready(function() {
     const chore = new Task($("input#task").val());
     toDoList.addToList(chore);
 
-    $("#list").text(chore.display());
+    $("#list").append("<li>" + chore.display() + "</li>");
   });
 });
