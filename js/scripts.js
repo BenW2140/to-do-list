@@ -1,26 +1,27 @@
-function toDoList() {
+function ToDoList() {
   this.tasks = [];
 }
 
-toDoList.prototype.addToList = function(task) {
+ToDoList.prototype.addToList = function(task) {
   this.tasks.push(task);
 }
 
-function task(chore) {
+function Task(chore) {
   this.chore = chore;
 }
 
-task.prototype.display() = function() {
-  return chore;
+Task.prototype.display = function() {
+  return this.chore;
 }
 
 $(document).ready(function() {
-  $("form#add-list").submit(function(event) {
+  $("form#add-task").submit(function(event) {
     event.preventDefault();
 
-    const chore = new task($("input#task").val());
+    let toDoList = new ToDoList();
+    const chore = new Task($("input#task").val());
     toDoList.addToList(chore);
 
-    $("#list").text(task.display());
+    $("#list").text(chore.display());
   });
 });
